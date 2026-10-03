@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="BirchPly icon">
+  <rect width="64" height="64" rx="10" fill="#F8F6EF"/>
+  <g fill="#222725">
+    <path d="M9 8h5v48H9z M20 8h2v48h-2z M29 8h6v48h-6z M41 8h2v48h-2z M49 8h2v48h-2z M57 8h2v48h-2z"/>
+    <path d="M14 16h6v2h-6z M14 31h5v2h-5z M14 45h6v2h-6z
+             M22 24h7v2h-7z M24 39h5v2h-5z M22 50h7v2h-7z
+             M35 18h6v2h-6z M35 34h5v2h-5z M35 47h6v2h-6z
+             M43 26h6v2h-6z M45 42h4v2h-4z
+             M51 20h6v2h-6z M51 36h5v2h-5z M51 49h6v2h-6z"/>
+  </g>
+</svg>
