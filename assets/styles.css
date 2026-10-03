@@ -40,7 +40,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   width: 38px;
   height: 38px;
   flex: 0 0 38px;
-  background: url('/assets/birchply-sketch-mark-v3.svg') center / contain no-repeat;
+  background: url('/birchply-site/assets/birchply-sketch-mark-v3.svg') center / contain no-repeat;
 }
 .brand span:last-child { line-height: 1.05; }
 .brand small { display: block; color: var(--forest); font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin-top: 4px; }
@@ -168,7 +168,7 @@ p { margin: 0; }
   content: "";
   display: block;
   height: clamp(150px, 16vw, 220px);
-  background: linear-gradient(rgba(8,20,14,.34), rgba(8,20,14,.34)), url('/assets/birch-forest-5-exact.webp') center 53% / cover no-repeat;
+  background: linear-gradient(rgba(8,20,14,.34), rgba(8,20,14,.34)), url('/birchply-site/assets/birch-forest-5-exact.webp') center 53% / cover no-repeat;
 }
 .footer > .wrap { padding-top: 34px; }
 .footer-grid { display: grid; grid-template-columns: 1.35fr .55fr .75fr; gap: 32px; }
