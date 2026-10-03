@@ -85,6 +85,17 @@
               <select name="product" required><option value="">Select product</option><option value="Plywood">Plywood</option><option value="Veneer">Veneer</option><option value="Other">Other</option></select>
             </label>
             <label>Required specification (format, thickness, quality, glue type, film faced) <span aria-hidden="true">*</span><textarea name="specification" required maxlength="4000" rows="6"></textarea></label>
+            <div class="field-grid">
+              <label>Required volume, m<sup>3</sup> <span aria-hidden="true">*</span><input type="number" name="required_volume" required min="0.01" step="0.01" inputmode="decimal"></label>
+              <fieldset class="choice-field">
+                <legend>One-time / regular <span aria-hidden="true">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-option"><input type="radio" name="delivery_frequency" value="One-time" required> One-time</label>
+                  <label class="choice-option"><input type="radio" name="delivery_frequency" value="Regular" required> Regular</label>
+                </div>
+              </fieldset>
+            </div>
+            <label>Delivery destination<input type="text" name="delivery_destination" maxlength="240"></label>
             <label>End use<textarea name="end_use" maxlength="2000" rows="3"></textarea></label>
             <label>Special requirements<textarea name="special_requirements" maxlength="3000" rows="4"></textarea></label>
             <button class="button" type="submit">Send request</button>
