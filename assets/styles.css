@@ -240,10 +240,11 @@ p { margin: 0; }
 .contact-card .contact-channel { margin-top: 8px; color: var(--forest-bright); font-family: inherit; font-size: .86rem; font-weight: 850; }
 .form-panel { background: var(--white); border: 1px solid var(--line); padding: 44px; box-shadow: var(--shadow); scroll-margin-top: 100px; }
 .required-note { margin: -20px 0 28px; color: #66706a; font-size: .88rem; }
-.required-note span, .enquiry-form label span { color: #9b3f31; }
+.required-note > span, .field-label > span { color: #9b3f31; }
 .enquiry-form { display: grid; gap: 22px; }
 .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .enquiry-form label { display: grid; gap: 8px; color: var(--ink); font-weight: 800; font-size: .9rem; }
+.enquiry-form .field-label { display: inline; color: var(--ink); font: inherit; }
 .enquiry-form input, .enquiry-form select, .enquiry-form textarea { width: 100%; border: 1px solid #aeb5b0; border-radius: 0; background: #fff; color: var(--ink); font: inherit; font-weight: 400; padding: 13px 14px; }
 .choice-field { min-width: 0; margin: 0; padding: 0; border: 0; }
 .choice-field legend { margin-bottom: 8px; color: var(--ink); font-weight: 800; font-size: .9rem; }
