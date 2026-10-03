@@ -245,6 +245,12 @@ p { margin: 0; }
 .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .enquiry-form label { display: grid; gap: 8px; color: var(--ink); font-weight: 800; font-size: .9rem; }
 .enquiry-form input, .enquiry-form select, .enquiry-form textarea { width: 100%; border: 1px solid #aeb5b0; border-radius: 0; background: #fff; color: var(--ink); font: inherit; font-weight: 400; padding: 13px 14px; }
+.choice-field { min-width: 0; margin: 0; padding: 0; border: 0; }
+.choice-field legend { margin-bottom: 8px; color: var(--ink); font-weight: 800; font-size: .9rem; }
+.choice-field legend span { color: #9b3f31; }
+.choice-options { display: flex; min-height: 49px; align-items: center; gap: 24px; padding: 11px 14px; border: 1px solid #aeb5b0; background: #fff; }
+.enquiry-form .choice-option { display: flex; grid-template-columns: none; align-items: center; gap: 8px; font-weight: 600; cursor: pointer; }
+.enquiry-form .choice-option input { width: auto; margin: 0; padding: 0; accent-color: var(--forest-bright); }
 .enquiry-form textarea { resize: vertical; min-height: 105px; }
 .enquiry-form input:focus, .enquiry-form select:focus, .enquiry-form textarea:focus { outline: 3px solid rgba(45,113,91,.18); border-color: var(--forest-bright); }
 .enquiry-form .button { justify-self: start; border: 0; cursor: pointer; }
