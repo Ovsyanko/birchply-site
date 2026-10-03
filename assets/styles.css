@@ -227,3 +227,36 @@ p { margin: 0; }
   .data-table { display: block; overflow-x: auto; }
   .media-panel img, .media-panel img:last-child { height: 300px; }
 }
+
+
+/* Contacts and enquiry form */
+.contact-layout { display: grid; grid-template-columns: .72fr 1.28fr; gap: 72px; align-items: start; }
+.contact-details h2, .form-panel h2 { margin: 12px 0 34px; font-size: clamp(2.2rem, 4vw, 3.5rem); }
+.contact-card { padding: 24px 0; border-top: 1px solid var(--line); }
+.contact-card:last-child { border-bottom: 1px solid var(--line); }
+.contact-card span { display: block; color: #66706a; font-size: .78rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 7px; }
+.contact-card > a { display: block; width: fit-content; color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.35rem, 2.2vw, 1.9rem); text-decoration: none; }
+.contact-card > a:hover { color: var(--forest-bright); }
+.contact-card .contact-channel { margin-top: 8px; color: var(--forest-bright); font-family: inherit; font-size: .86rem; font-weight: 850; }
+.form-panel { background: var(--white); border: 1px solid var(--line); padding: 44px; box-shadow: var(--shadow); scroll-margin-top: 100px; }
+.required-note { margin: -20px 0 28px; color: #66706a; font-size: .88rem; }
+.required-note span, .enquiry-form label span { color: #9b3f31; }
+.enquiry-form { display: grid; gap: 22px; }
+.field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.enquiry-form label { display: grid; gap: 8px; color: var(--ink); font-weight: 800; font-size: .9rem; }
+.enquiry-form input, .enquiry-form select, .enquiry-form textarea { width: 100%; border: 1px solid #aeb5b0; border-radius: 0; background: #fff; color: var(--ink); font: inherit; font-weight: 400; padding: 13px 14px; }
+.enquiry-form textarea { resize: vertical; min-height: 105px; }
+.enquiry-form input:focus, .enquiry-form select:focus, .enquiry-form textarea:focus { outline: 3px solid rgba(45,113,91,.18); border-color: var(--forest-bright); }
+.enquiry-form .button { justify-self: start; border: 0; cursor: pointer; }
+.form-status { margin-bottom: 24px; padding: 16px 18px; background: var(--paper-deep); border-left: 4px solid var(--forest-bright); }
+.form-status.error { border-left-color: #9b3f31; }
+.hp-field { position: absolute !important; left: -9999px !important; width: 1px; height: 1px; overflow: hidden; }
+
+@media (max-width: 900px) {
+  .contact-layout { grid-template-columns: 1fr; gap: 48px; }
+}
+
+@media (max-width: 620px) {
+  .form-panel { padding: 28px 20px; }
+  .field-grid { grid-template-columns: 1fr; }
+}
